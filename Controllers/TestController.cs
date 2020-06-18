@@ -36,10 +36,5 @@ namespace StudyTest.Controllers
         {
             return Ok(testModel);
         }
-        [HttpGet]
-        public IActionResult GetForm([FromForm]TestModel testModel)
-        {
-            return Ok(testModel);
-        }
     }
 }
