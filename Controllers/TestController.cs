@@ -41,11 +41,5 @@ namespace StudyTest.Controllers
         {
             return Ok(testModel);
         }
-
-        [HttpGet]
-        public IActionResult GetHeader([FromHeader]TestModel testModel)
-        {
-            return Ok(testModel);
-        }
     }
 }
